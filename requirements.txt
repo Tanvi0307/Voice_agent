@@ -1,0 +1,21 @@
+# Core
+streamlit>=1.35.0
+sounddevice>=0.4.6
+soundfile>=0.12.1
+numpy>=1.24.0
+
+# STT - Local
+faster-whisper>=1.0.0
+
+# STT - API (optional, comment out if not needed)
+groq>=0.8.0
+openai>=1.30.0
+
+# LLM - Local
+ollama>=0.2.0
+
+# LLM - Claude API (optional)
+anthropic>=0.28.0
+
+# Utilities
+pathlib2>=2.3.7
